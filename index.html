@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="author" content="Josh Wayles" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Counter App</title>
+  </head>
+  <body onload="startTime()">
+    <div class="manual-counter">
+      <h1>Counter App</h1>
+      <h2 id="count-el">0</h2>
+      <div class="counter-buttons">
+        <button class="increase" id="increase-btn">
+          Count + 1
+        </button>
+        <button class="save" id="save-btn">
+          Save
+        </button>
+        <button class="time-save" id="time-btn">
+          Save With Time
+        </button>
+      </div>
+      <div class="entry-log">
+        <h3>Entry Log:</h3>
+        <p id="save-el">_</p>
+      </div>
+    </div>
+    <div class="time-counter">
+      <p id="current-time"></p>
+    </div>
+    <div class="author">
+      <p id="author"> Coding and styling by Josh Wayles</p>
+    </div> 
+    <script src="script.js"></script>
+  </body>
+</html>
