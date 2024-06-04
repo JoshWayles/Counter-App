@@ -6,20 +6,28 @@ h1{
   margin: -1px;
 }
 h2{
-  font-size: 6rem; 
-  margin: -5px 0px -15px 0px;
+  font-size: 5rem; 
+  margin: -5px 0px -18px 0px;
 }
 h3{
-  margin: 10px 0px -15px 0px;
+  margin: 15px 0px -15px 0px;
+  font-size: 1.4rem;
 }
 button{
   border-radius: 10px;
   margin: 15px 10px 0px 0px;
+  color: black;
+  touch-action: manipulation;
 }
 #save-el{
   margin-bottom: -2px;
-  line-height: 2;
+  line-height: 1.8;
   font-size: 1.2rem;
+}
+#total-el{
+  margin: 35px 0 -10px 0;
+  line-height: 1;
+  font-size: 1.3rem;
 }
 #current-time{
   font-size: 1.2rem;
@@ -52,7 +60,7 @@ button{
 .time-counter{
   background-color: hsl(0deg,0%,75%);
   border-radius: 10px;
-  padding: 20px;
+  padding: 1px;
   max-width: 400px;
   margin: auto;
   text-align: center; 
