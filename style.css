@@ -54,7 +54,7 @@ button {
 }
 
 .manual-counter {
-  background-color: hsl(0, 0%, 85%);
+  background-color: hsl(0, 0%, 90%);
   border-radius: 10px;
   padding: 20px;
   margin: 20px auto;
@@ -82,7 +82,7 @@ button {
 }
 
 .time-counter {
-  background-color: hsl(0deg, 0%, 85%);
+  background-color: hsl(0deg, 0%, 90%);
   border-radius: 10px;
   padding: 1px;
   max-width: 400px;
