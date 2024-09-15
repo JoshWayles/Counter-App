@@ -69,13 +69,14 @@ button {
 }
 
 .save {
+  background-color: hsl(0, 0%, 95%);
   height: 40px;
   width: 80px;
   font-size: 1.2rem;
 }
 
 .time-save {
-  background-color: hsl(0deg, 0%, 65%);
+  background-color: hsl(0, 0%, 80%);
   height: 40px;
   width: 240px;
   font-size: 1.2rem;
